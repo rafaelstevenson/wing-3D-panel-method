@@ -1,4 +1,5 @@
-Wing Simulation Code
+[AE-6000 Continuum Mechanics II Major assigment]
+Wing Simulation Using Panel Method
 
 Run Program :
 -> Run Main.py 
