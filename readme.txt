@@ -35,6 +35,24 @@ change surface to -> surface with edges (to visualize the wing panels)
 opacity could be changed for transparency
 
 
+The design process of aircraft’s wing is very costly and time-consuming. In
+order to reduce the cost of it, numerical simulation can be utilized. One of
+the method that can be utilized is Viscous-Inviscid Interaction (VII). VII
+method divides the fluid domain into two parts, namely viscous domain and
+inviscid domain. Solutions of the invisicid domain outside of the viscous
+domain are computed by using Laplace equation and solutions of the viscous
+domain are computed by using Boundary Layer equations. In this report,
+the Laplace equation solver for inviscid domain will be further investigated.
+In the inviscid region of the flow, the fluids are incompressible and irrotational. With the addition of steady-state assumption, the governing equation that governs the inviscid region will turn into laplace equation. Laplace
+equation is an elliptic differential equation, then the solution depends on the
+boundary conditions of the domain. In this research Panel method is utilized to solve the laplace equation. Panel Method uses linear combination of
+solutions from singularity element. In the panel method, wake modelling is
+one of the crucial step to obtain an accurate result in the simulation. In this
+project, authors tested several wake modelling in the developed soruce code
+to solve flow around the wing using Panel Method.
+
+
+
 
 
 
